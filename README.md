@@ -1,13 +1,15 @@
-About r-tidyconsultant
-======================
-
-Home: https://harrison4192.github.io/TidyConsultant/, https://github.com/Harrison4192/TidyConsultant
-
-Package license: MIT
+About r-tidyconsultant-feedstock
+================================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidyconsultant-feedstock/blob/main/LICENSE.txt)
 
+Home: https://harrison4192.github.io/TidyConsultant/
+
+Package license: MIT
+
 Summary: Loads the 5 packages in the Tidy Consultant Universe. This collection of packages is useful for anyone doing data science, data analysis, or quantitative consulting. The functions in these packages range from data cleaning, data validation, data binning, statistical modeling, and file exporting.
+
+Development: https://github.com/Harrison4192/TidyConsultant
 
 Current build status
 ====================
