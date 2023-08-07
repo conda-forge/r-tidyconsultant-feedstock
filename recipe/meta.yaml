@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -49,7 +49,8 @@ test:
     - "\"%R%\" -e \"library('TidyConsultant')\""  # [win]
 
 about:
-  home: https://harrison4192.github.io/TidyConsultant/, https://github.com/Harrison4192/TidyConsultant
+  home: https://harrison4192.github.io/TidyConsultant/
+  dev_url: https://github.com/Harrison4192/TidyConsultant
   license: MIT
   summary: Loads the 5 packages in the Tidy Consultant Universe. This collection of packages
     is useful for anyone doing data science, data analysis, or quantitative consulting.
