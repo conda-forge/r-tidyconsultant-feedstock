@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/TidyConsultant_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/TidyConsultant/TidyConsultant_{{ version }}.tar.gz
-  sha256: 96b28b92ca470968adb4d61229696d3e5212f5cc01a58ef3ccd61260072cfc01
+  sha256: da5303350ff3edd0a9e7ad68ccf6ee01dcc1f875184b505b533ef637e44d31ac
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
